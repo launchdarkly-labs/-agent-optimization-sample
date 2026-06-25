@@ -1,0 +1,3 @@
+launchdarkly-server-sdk
+launchdarkly-server-sdk-ai
+launchdarkly-ai-optimizer @ git+https://github.com/launchdarkly/python-server-sdk-ai.git@aklatzke/AIC-2263/sdk-dx-improvements#subdirectory=packages/optimization

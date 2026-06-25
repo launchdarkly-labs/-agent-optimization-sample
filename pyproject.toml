@@ -1,0 +1,14 @@
+[project]
+name = "agent-optimization-sample"
+version = "0.1.0"
+description = "Optimize an email-reply drafter for human-sounding + clear replies with LaunchDarkly AgentControl."
+requires-python = ">=3.11"
+dependencies = [
+    "launchdarkly-server-sdk",
+    "launchdarkly-server-sdk-ai",
+    "launchdarkly-ai-optimizer",
+    "anthropic>=0.112.0",
+]
+
+[tool.uv.sources]
+launchdarkly-ai-optimizer = { git = "https://github.com/launchdarkly/python-server-sdk-ai.git", branch = "aklatzke/AIC-2263/sdk-dx-improvements", subdirectory = "packages/optimization" }
